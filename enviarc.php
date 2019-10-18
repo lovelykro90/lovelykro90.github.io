@@ -15,7 +15,7 @@
     $aplicaciones = $_POST["aplicaciones"];
     $otros = $_POST["otros"];
     $otrosserv = $_POST["otrosserv"];
-    $contenido = "Nombre:".$nombre . "\nTeléfono:" . $telefono . "\nCorreo:" . $correo . "\nMensaje:" . $mensaje;
+    $contenido = "Nombre:".$nombre . "\nTeléfono:" . $telefono . "\nCorreo:" . $correo . "\nMensaje:" . $mensaje . "\pyme1:" . $pyme1 . "\pyme2:" . $pyme2 . "\pyme3:" . $pyme3 . 
     mail($destino, "Contacto", $contenido);
     header("Location:cotiza.html")
 ?>
