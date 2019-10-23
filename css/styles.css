@@ -1,5 +1,9 @@
 
-
+h1,h2,h3,h4,h5,p{
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
 /*overlay image*/
 .cont{
     position: relative;
@@ -55,7 +59,6 @@
 
 h1 {
   font-size: 50px;
-  word-break: break-all;
 }
 
 /* Add padding BETWEEN each column */
